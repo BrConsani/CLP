@@ -1,0 +1,62 @@
+Conceitos de linguagens de programação
+	- Linguagens de programação
+		- Histórico e evolução
+		- Classificação
+		- Propriedades
+		- Implementação
+      
+Por que surgem novas linguagens de programação?
+	- Closure, 2009, Rich Hickey -> Nubank
+	- Rust, Mozilla, Graydon
+	- Kotlin, Jetbrains
+	- Swift, Apple (IOS)
+	- Elixir (Brasileira)
+  
+Linguagens Formais (Sintaxe)
+	Hierarquia de Chomsky
+	1. Linguagens Regulares
+		 Gramáticas Regulares
+		 Expressões Regulares
+	2. Linguagens Livres de Contexto
+	3. Linguagens sensíveis ao Contexto
+	4. Linguagens irrestritas ao Contexto
+
+Resumo de Regex (retorna true ou false):
+	/^/ 				Inicio da String
+	/$/					Fim da String
+	/\x00/				Código em hexcode
+	/c/ 				Busca por 'c'
+	/./ 				Busca por qualquer Character/String
+	/c|d/ 				Busca por qualquer um dos Character/String
+
+Interface de Linha de Comando (cmd) (Windows):
+	dir					Lista todos os diretórios 						(Directory)
+	mkdir _name 		Cria uma nova pasta com o nome _name			(Make directory)
+	cd _name			Move para a pasta _name 						(Change directory)
+	cls					Limpa a linha de comando 						(Clear Screen)
+	notepad 			Abre o notepad
+
+Interface de Linha de Comando (powerShell) (Windows):
+	ls					Lista todos os diretórios						(Get-ChildItem)
+	clear				Limpa a linha de comando						(Clear)
+	Get-Help _command	Obtem ajuda do _command
+	sal _name _command	Apelida o _command para _name					(setAlias)
+	ren _name _name2	Renomeia _name para _name2						(rename)
+
+Linguagens Script
+	Script é a função na qual a linguagem é aplicada.
+	Automação de Comandos:
+		- Macro em Excel
+		- VB Excel
+
+Shell Unix -> Shell Scripting
+	.bash, .csh, .ksh, .zsh, etc.
+	Linguagens Script:
+		Perl -> Ruby
+		Python
+		Lua
+		JavaScript
+
+Porém, existem propriedades da linguagem de programação que favorecem a automação de comandos.
+	- Interpretada
+	- Dinâmicamente Tipada
