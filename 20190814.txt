@@ -1,0 +1,51 @@
+Uma "intuição" de linguagens Regulares
+	- Sequência "o que vem depois" -> imediatamente
+	- Vizinhança
+
+Regular
+	lasanha -> /molho(queijo presunto massa)+ cracker/
+Não Regular
+	sanduiche -> /pão alface queijo hamburguer queijo alface pão/
+
+Linguagens:
+	Léxico (o que se escreve)
+		"Alivevok tanaj takare tolente ukukantis"
+		Dicionário
+		Vocabulário			
+	Sintático
+		"A de o foi aqui mas porém"
+		Gramática (regras de sintaxe)
+		Forma
+		Estrutura
+	Semântico
+		"A chuva sempre seca a derivada da hipotenusa cotangente"
+		Sentido
+		Significado (palavra/simbolo)
+
+Léxico do C
+	/if/ etc. (palavras reservadas)
+	/\d+/ (números, "literais de números inteiros")
+	/\p\w*/ (identificadores)
+
+	\w -> _ 0-9 A-Z a-z
+	/p -> _ A-Z a-z
+
+Semântica de L.P
+	Intuição "Textura da Experiência"
+		Signo
+			Palavra
+			Semiótica (associar palavras com o visual)
+			Interface
+			Sintaxe
+		Operação da Máquina
+			Observação dos efeitos
+		Código-fonte
+
+Máquinhas abstratas
+	- Máquina de registradores
+	- Máquina baseada em pilha
+	- Máquina de Turing
+	- Cálculo lambda
+Semântica formal
+	- Semântica denotacional
+	- Semântica operacional (Operação da máquina)
